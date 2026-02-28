@@ -6,6 +6,9 @@ enablePrivateLogging = True
 hide_names = True
 hide_levels = True
 
+# new gamemodes can be found by requesting https://glz-{region}-1.{shard}.a.pvp.net/parties/v1/parties/{party id}/members/{puuid}/refreshPlayerIdentity
+# which contains "EligibleQueues" with all currently available queues
+
 gamemodes = {
     "newmap": "New Map",
     "competitive": "Competitive",
@@ -19,6 +22,7 @@ gamemodes = {
     "custom": "Custom",
     "snowball": "Snowball Fight",
     "valaram": "All Random One Site",
+    "skirmish2v2": "Skirmish: 2v2",
     "": "Custom",
 }
 
