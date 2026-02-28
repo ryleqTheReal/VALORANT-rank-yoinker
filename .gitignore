@@ -147,6 +147,12 @@ config.json
 /logs/
 /chat_logs/
 
+# for all you vibe coders
+.claude
+
+#vscode env settings
+.vscode
+
 env/
 tempCodeRunnerFile.py
 vRY.lnk
